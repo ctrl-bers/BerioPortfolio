@@ -72,9 +72,12 @@ function App() {
       date: 'May - Present',
       title: 'Programmer',
       desc: [
-        'Own the backend. Architect secure protocols, build scalable microservices, and design efficient databases to ensure sensitive data moves safely and fast.',        
-        'Explore and innovate. Work hands-on with cutting-edge technologies like AI, OCR, and Rust-powered WASM and bring them to life in production.',
-        'Work smart, stay agile. Join weekly sprints, contribute to code reviews, and build within modern CI/CD pipelines without corporate red tape.'
+        'Collaborate with the development team to design, develop, and maintain software applications using Rust.',
+        'Support the development and maintenance of frontend components, ensuring a cohesive user experience.',
+        'Take part in code reviews, debugging, and testing to uphold code quality and performance.',
+        'Continuously learn and apply new programming techniques and technologies to improve development practices.',
+        'Assist in the development of new features and the enhancement of existing systems.',
+        'Work closely with team members to solve technical challenges and contribute to project success.'
       ]
     },
     {
