@@ -30,9 +30,10 @@ function App() {
   // Adjust paths based on your project structure
   // Example: const certs = [{ title: 'Certificate Title', org: 'Organization', img: require('./path/to/image.png') }];
   const certs = [
+    { title: 'Data Analytics Essentials', org: 'Cisco', img: require('./Pictures/Data Analytics.png'), details: 'Issued by Cisco'},
     { title: 'Google IT Support', org: 'Google', img: require('./Pictures/IT Support Certificate-1.png'), details: 'Issued by Google. Credential ID: 65E3RMGLEAJL' },
-    { title: 'Data Fundamentals Training Course', org: 'JobsNext', img: require('./Pictures/Training 1.jpg'), details: 'Issued by JobsNext' },
-    { title: 'Cisco Networking Academy: Introduction to Cybersecurity', org: 'DICT Region VIII', img: require('./Pictures/Cisco.png'), details: 'Issued by DICT Region VIII.' },
+    { title: 'Data Fundamentals Training Course', org: 'IBM Skills Build', img: require('./Pictures/Data Fundamentals.png'), details: 'Issued by IBM Skills Build ' },
+    { title: 'Cisco Networking Academy: Introduction to Cybersecurity', org: 'DICT Region VIII', img: require('./Pictures/Cybersecurity.png'), details: 'Issued by DICT Region VIII.' },
   ];
 
   const techStack = {
