@@ -1405,6 +1405,24 @@ body.light-mode .cert-modal-card-hover:hover *,
 body.light-mode .view-all .arrow {
   display: none !important;
 }
+body.light-mode .modal-title  .btn-back-modern, .modal-header .btn-back-modern  {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+body.light-mode  .modal-header .btn-back-modern {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+body.dark-mode .modal-header .btn-back-modern {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .custom-cert-modal-back,
 .custom-cert-modal-back:hover,
 .custom-cert-modal-back:focus,
