@@ -1405,4 +1405,27 @@ body.light-mode .cert-modal-card-hover:hover *,
 body.light-mode .view-all .arrow {
   display: none !important;
 }
-
+.custom-cert-modal-back,
+.custom-cert-modal-back:hover,
+.custom-cert-modal-back:focus,
+.custom-cert-modal-back:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  color: inherit !important;
+  transition: none !important;
+}
+@media (prefers-color-scheme: dark) {
+  .custom-cert-modal-back,
+  .custom-cert-modal-back:hover,
+  .custom-cert-modal-back:focus,
+  .custom-cert-modal-back:active {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    color: inherit !important;
+    transition: none !important;
+  }
+}
