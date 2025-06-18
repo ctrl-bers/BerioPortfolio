@@ -1401,4 +1401,8 @@ body.light-mode .cert-modal-card-hover:hover *,
   color: #fff !important;
 }
 
+/* Hide arrow and remove hover background for view-all arrow in light mode */
+body.light-mode .view-all .arrow {
+  display: none !important;
+}
 
