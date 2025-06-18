@@ -1364,3 +1364,41 @@ body.light-mode .modal-content.projects-modal .cert-card:hover *,
 .App.light-mode .modal-content.projects-modal .cert-card:hover * {
   color: #fff !important;
 }
+
+/* --- HOVER EFFECT FOR ALL CERTIFICATION CARDS IN MODAL (SAME AS .cert-card) --- */
+.cert-modal-card,
+.cert-modal-card-hover {
+  transition: background 0.22s cubic-bezier(.4,0,.2,1), color 0.22s cubic-bezier(.4,0,.2,1), border 0.22s cubic-bezier(.4,0,.2,1), box-shadow 0.22s cubic-bezier(.4,0,.2,1), transform 0.18s cubic-bezier(.4,0,.2,1);
+}
+body:not(.light-mode) .cert-modal-card:hover,
+body:not(.light-mode) .cert-modal-card-hover:hover {
+  background: #fff !important;
+  color: #181818 !important;
+  border: 1.5px solid #fff !important;
+  text-decoration: none !important;
+  transform: scale(1.025);
+  animation: cardHoverPop 0.18s cubic-bezier(.4,0,.2,1);
+}
+body:not(.light-mode) .cert-modal-card:hover *,
+body:not(.light-mode) .cert-modal-card-hover:hover * {
+  color: #181818 !important;
+}
+body.light-mode .cert-modal-card:hover,
+body.light-mode .cert-modal-card-hover:hover,
+.App.light-mode .cert-modal-card:hover,
+.App.light-mode .cert-modal-card-hover:hover {
+  background: #232428 !important;
+  color: #fff !important;
+  border: 1.5px solid #232428 !important;
+  text-decoration: none !important;
+  transform: scale(1.025);
+  animation: cardHoverPop 0.18s cubic-bezier(.4,0,.2,1);
+}
+body.light-mode .cert-modal-card:hover *,
+body.light-mode .cert-modal-card-hover:hover *,
+.App.light-mode .cert-modal-card:hover *,
+.App.light-mode .cert-modal-card-hover:hover * {
+  color: #fff !important;
+}
+
+
