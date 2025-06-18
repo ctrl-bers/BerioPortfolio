@@ -1429,3 +1429,21 @@ body.light-mode .view-all .arrow {
     transition: none !important;
   }
 }
+body.light-mode .custom-cert-modal-back,
+body.light-mode .custom-cert-modal-back:hover,
+body.light-mode .custom-cert-modal-back:focus,
+body.light-mode .custom-cert-modal-back:active,
+.App.light-mode .custom-cert-modal-back,
+.App.light-mode .custom-cert-modal-back:hover,
+.App.light-mode .custom-cert-modal-back:focus,
+.App.light-mode .custom-cert-modal-back:active {
+  background: none !important;
+  color: #232428 !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: none !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+  cursor: pointer;
+}
