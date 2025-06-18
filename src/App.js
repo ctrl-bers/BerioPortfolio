@@ -155,12 +155,12 @@ function App() {
   // Modal content rendering
   const renderModal = () => {
     if (certModal) {
-      return (
+    return (
         <div className="modal-overlay animate__animated animate__fadeIn" style={{zIndex:9999, background:'rgba(0,0,0,0.85)'}}>
           <div className="modal-content card shadow-lg border-0 animate__animated animate__fadeInLeft" style={{background:'#232428', color:'#fff', maxWidth:'900px', margin:'4vh auto', borderRadius:'18px', padding:'2.5rem 2.5rem 2rem 2.5rem', boxShadow:'0 8px 32px 0 rgba(0,0,0,0.25)'}}>
-            <div className="position-relative mb-4" style={{minHeight:'48px'}}>
-              <button className="custom-cert-modal-back btn btn-link p-0 me-3 position-absolute start-0 top-50 translate-middle-y" onClick={() => setCertModal(null)} style={{fontSize:'1.7rem'}}><i className="bi bi-arrow-left"></i></button>
-              <h3 className="custom-cert-modal-title m-0" style={{textAlign:'center'}} >Certification</h3>
+            <div className="d-flex align-items-center justify-content-center mb-4" style={{minHeight:'48px', position:'relative'}}>
+              <button className="custom-cert-modal-back btn btn-link p-0 me-3" onClick={() => setCertModal(null)} style={{fontSize:'1.7rem', position:'absolute', left:0}}><i className="bi bi-arrow-left"></i></button>
+              <h3 className="custom-cert-modal-title m-0 w-100" style={{textAlign:'center'}}>Certification</h3>
             </div>
             <div className="d-flex flex-column align-items-center">
               <img src={certModal.img} alt={certModal.title} className="img-fluid rounded-3 mb-4" style={{maxHeight:'340px', background:'#fff', objectFit:'contain', boxShadow:'0 2px 16px 0 rgba(0,0,0,0.18)'}} />
