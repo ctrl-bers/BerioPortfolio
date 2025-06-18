@@ -432,7 +432,7 @@ Currently, I am learning this React.js for front-end development, along with Pyt
                 <div className="card-body" style={{color:'#fff'}}>
                   <h5 className="card-title mb-3 d-flex align-items-center" style={sectionHeaderStyle}>
                     <i className="bi bi-cpu" style={sectionIconStyle}></i> Tech Stack
-                    <span className="view-all ms-auto plain-link" onClick={() => setModalType('tech')} style={plainLinkStyle}>View All <span className="arrow">&gt;</span></span>
+                    <span className="view-all ms-auto plain-link" onClick={() => setModalType('tech')} style={plainLinkStyle}>View All</span>
                   </h5>
                   {Object.entries(techStack).map(([cat, items]) => (
                     <div key={cat} className="mb-3">
@@ -483,7 +483,7 @@ Currently, I am learning this React.js for front-end development, along with Pyt
                 <div className="card-body" style={{color:'#fff', padding:'0.7rem 0.7rem'}}>
                   <h5 className="card-title mb-3 d-flex align-items-center" style={{...sectionHeaderStyle, fontSize:'1.1rem'}}>
                     <i className="bi bi-patch-check" style={{...sectionIconStyle, fontSize:'1.2rem'}}></i> Certifications
-                    <span className="view-all ms-auto plain-link" onClick={() => setModalType('certs')} style={plainLinkStyle}>View All <span className="arrow">&gt;</span></span>
+                    <span className="view-all ms-auto plain-link" onClick={() => setModalType('certs')} style={plainLinkStyle}>View All</span>
                   </h5>
                   <div className="row g-2">
                     {certs.slice(0, 4).map((c, i) => (
@@ -503,7 +503,7 @@ Currently, I am learning this React.js for front-end development, along with Pyt
             <div className="card-body" style={{color:'#fff', padding:'0.7rem 0.7rem'}}>
               <h5 className="card-title mb-3 d-flex align-items-center justify-content-between" style={sectionHeaderStyle}>
                 <span><i className="bi bi-layout-wtf" style={{...sectionIconStyle, fontSize:'1.2rem'}}></i> Projects</span>
-                <span className="view-all ms-auto plain-link" onClick={() => setModalType('projects')} style={plainLinkStyle}>View All <span className="arrow">&gt;</span></span>
+                 <span className="view-all ms-auto plain-link" onClick={() => setModalType('projects')} style={plainLinkStyle}>View All</span>
               </h5>
               <div className="row g-2">
                 {projects.slice(0, 4).map((p, i) => (
