@@ -56,7 +56,7 @@ function App() {
   const projects = [
     { title: 'Senyas: Filipino Sign Language Translation for Two-Way Communication', desc: 'https://github.com/ctrl-bers/Senyas', link: 'https://github.com/ctrl-bers/Senyas' },
     { title: 'A Proposed Computerized Application Supply Inventory System for the School Supplies of Samar National School', desc: 'https://github.com/ctrl-bers/SupplyInventorySystem', link: 'https://github.com/ctrl-bers/SupplyInventorySystem' },
-    {title: 'Capstone Assitant Powered By AI (CAP.AI)', desc: 'https://github.com/ctrl-bers/CAP.AI', link: 'https://github.com/ctrl-bers/CAP.AI'},
+    {title: 'Capstone Assitant Powered By AI (CAP.AI)', desc: 'https://cap-ai-five.vercel.app/', link: 'https://cap-ai-five.vercel.app/'},
     { title: 'Github Profile Search', desc: 'https://ctrl-bers.github.io/GHProfileSearch/', link: 'https://ctrl-bers.github.io/GHProfileSearch/' },
     { title: 'Water Level Monitoring', desc: 'https://github.com/ctrl-bers/WaterLevelMonitoring', link: 'https://github.com/ctrl-bers/WaterLevelMonitoring' },
     { title: 'GarbDetect: Automated Wet and Dry Garbage Detection with IoT-Based User Notification', desc: 'https://github.com/ctrl-bers/Mircoprocessor26', link: 'https://github.com/ctrl-bers/Mircoprocessor26' },
